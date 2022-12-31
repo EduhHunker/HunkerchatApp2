@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="50dp"
+    android:padding="2dp"
+    android:layout_height="wrap_content">
+    
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/senderchatdrawable"
+        android:id="@+id/layoutformessage">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Display"
+            android:textColor="@color/black"
+            android:paddingLeft="7sp"
+            android:paddingRight="40dp"
+            android:paddingBottom="7sp"
+            android:paddingTop="7sp"
+            android:id="@+id/sendermessage"
+            android:textSize="15dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/timemassage"
+            android:layout_toRightOf="@id/sendermessage"
+            android:layout_alignBottom="@+id/sendermessage"
+            android:text="20:50"
+            android:padding="7dp"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+
+</RelativeLayout>

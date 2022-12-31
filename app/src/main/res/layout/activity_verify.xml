@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".verify">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/eduh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/logo"
+        android:contentDescription="TODO">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello chat with us:"
+        android:layout_below="@id/logo"
+        android:textColor="@color/black"
+        android:id="@+id/chattext"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="40dp"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/verifyOTP"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/chattext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:inputType="number"
+        android:textAlignment="center"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:autofillHints="YOU">
+
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/verifyOTP"
+        android:text="@string/didnt_receive_otp_resend"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/changenumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp">
+        
+    </TextView>
+
+    <android.widget.Button
+        android:id="@+id/verify_otp"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/changenumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/verify_otp"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+
+    </android.widget.Button>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/verify_otp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/progress_circular"
+        android:visibility="invisible"
+        android:layout_marginTop="30dp">
+
+    </ProgressBar>
+
+
+
+
+
+</RelativeLayout>

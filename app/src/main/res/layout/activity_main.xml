@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#EFD80A"
+    tools:context=".MainActivity"
+    tools:ignore="MissingClass">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/eduh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/logo"
+        android:contentDescription="@string/todo">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_chat_with_us"
+        android:layout_below="@id/logo"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:id="@+id/chattext"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="40dp"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp">
+
+    </TextView>
+
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_centerVertical="true"
+      android:id="@+id/centerhorizontalline">
+
+  </RelativeLayout>
+
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/countrycodepicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chattext"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="10dp"
+
+        android:text="@string/_254"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:ccp_areaCodeDetectedCountry="true">
+
+    </com.hbb20.CountryCodePicker>
+
+    <EditText
+        android:id="@+id/getphoneNO"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/centerhorizontalline"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="70dp"
+        android:autofillHints=""
+        android:hint="@string/enter_phone_no"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColorHint="#33691E">
+
+    </EditText>
+
+
+    <android.widget.Button
+        android:id="@+id/sendotpbutton"
+        android:layout_width="200sp"
+        android:layout_height="48dp"
+        android:layout_below="@id/getphoneNO"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:paddingStart="30dp"
+        android:paddingEnd="40dp"
+        android:text="@string/send_otp"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+
+    </android.widget.Button>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sendotpbutton"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        android:id="@+id/progressbarofmain"
+        android:layout_marginTop="30dp">
+
+    </ProgressBar>
+
+
+
+
+
+</RelativeLayout>

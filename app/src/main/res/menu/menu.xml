@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Hunker"
+        android:title="@string/hunker_chat_app">
+
+    </item>
+    <item
+        android:id="@+id/messagenumber"
+        android:title="@string/message_a_number">
+
+    </item>
+    <item
+        android:id="@+id/Massmessage"
+        android:title="@string/mass_message_sender">
+
+    </item>
+    <item
+        android:id="@+id/profile"
+        android:title="@string/profile">
+
+    </item>
+    <item
+        android:id="@+id/setting"
+        android:title="@string/setting">
+
+    </item>
+    <item
+        android:id="@+id/aboutme"
+        android:title="@string/about_me">
+
+    </item>
+
+</menu>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "872587012356",
+    "project_id": "hunker-chatapp",
+    "storage_bucket": "hunker-chatapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872587012356:android:81945cf86f8f5540484851",
+        "android_client_info": {
+          "package_name": "com.example.hunkerchat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872587012356-q0vo259hmd58judoi042au02aq6bsljj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyQ0i2ADc91as3l-roohtMIWo5i200dpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872587012356-q0vo259hmd58judoi042au02aq6bsljj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

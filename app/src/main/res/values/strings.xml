@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Hunkerchat-App</string>
+    <string name="hello_chat_with_us">Hello chat with us:</string>
+    <string name="_254">+254</string>
+    <string name="enter_phone_no">Enter phone No</string>
+    <string name="send_otp">send otp</string>
+    <string name="todo">TODO</string>
+    <string name="hunker_chatapp">Hunker ChatApp</string>
+    <string name="status">status</string>
+    <string name="chat">chat</string>
+    <string name="call">call</string>
+    <string name="from">From</string>
+    <string name="hunker_tech">Hunker TECH</string>
+    <string name="TODO">TODO</string>
+    <string name="didnt_receive_otp_resend">Didnt Receive OTP ?Resend</string>
+    <string name="verify_otp">verify Otp</string>
+    <string name="setting">Setting</string>
+    <string name="about_me">About Me</string>
+    <string name="profile">Profile</string>
+    <string name="mass_message_sender">Mass Message Sender</string>
+    <string name="message_a_number">Message a number</string>
+    <string name="hunker_chat_app">Hunker chat app</string>
+</resources>
