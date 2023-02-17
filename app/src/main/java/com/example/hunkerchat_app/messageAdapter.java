@@ -32,11 +32,11 @@ public class messageAdapter extends RecyclerView.Adapter {
     public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         if (viewType==Item_SEND)
         {
-            View view= LayoutInflater.from(parent.context).inflate(R.layout.senderchatlayout,parent,false);
+            View view= LayoutInflater.from(parent.getContext()).inflate(R.layout.senderchatlayout,parent,false);
             return  new SenderViewHolder(view);
         }else
         {
-            View view= LayoutInflater.from(context).inflate(R.layout.receiverchatlayout,parent,false);
+            View view= LayoutInflater.from(parent.getContext()).inflate(R.layout.receiverchatlayout,parent,false);
             return  new ReceiverViewHolder(view);
 
         }
@@ -49,13 +49,11 @@ public class messageAdapter extends RecyclerView.Adapter {
         if (holder.getClass()==SenderViewHolder.class)
         {
             SenderViewHolder ViewHolder=(SenderViewHolder)holder;
-            ViewHolder.textViewmessage.setText(message.getTarget().getMessage());
-            ViewHolder.timeofmessage.setText(message.getCurrenttime);
+
         }else
         {
             ReceiverViewHolder ViewHolder=(ReceiverViewHolder) holder;
-            ViewHolder.textViewmessage.setText(message.getMessage());
-            ViewHolder.timeofmessage.setText(message.getCurrenttime);
+
         }
 
     }

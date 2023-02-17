@@ -100,7 +100,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/sendotpbutton"
         android:layout_centerHorizontal="true"
-        android:visibility="visible"
+        android:visibility="invisible"
         android:id="@+id/progressbarofmain"
         android:layout_marginTop="30dp">
 
